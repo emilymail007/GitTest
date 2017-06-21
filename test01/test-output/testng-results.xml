@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="suit" duration-ms="62" started-at="2017-06-20T08:49:21Z" finished-at="2017-06-20T08:49:21Z">
+    <groups>
+    </groups>
+    <test name="testDemo1" duration-ms="15" started-at="2017-06-20T08:49:21Z" finished-at="2017-06-20T08:49:21Z">
+      <class name="testDemo1">
+        <test-method status="PASS" signature="testCase2()[pri:0, instance:testDemo1@29d52a29]" name="testCase2" duration-ms="0" started-at="2017-06-20T16:49:21Z" finished-at="2017-06-20T16:49:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method status="PASS" signature="testCase1()[pri:0, instance:testDemo1@29d52a29]" name="testCase1" duration-ms="0" started-at="2017-06-20T16:49:21Z" finished-at="2017-06-20T16:49:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+      </class> <!-- testDemo1 -->
+    </test> <!-- testDemo1 -->
+    <test name="personTest" duration-ms="0" started-at="2017-06-20T08:49:21Z" finished-at="2017-06-20T08:49:21Z">
+      <class name="testcase.detail.PersonTest">
+        <test-method status="PASS" signature="EyeIsZero()[pri:0, instance:testcase.detail.PersonTest@77f85f8c]" name="EyeIsZero" duration-ms="0" started-at="2017-06-20T16:49:21Z" finished-at="2017-06-20T16:49:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EyeIsZero -->
+        <test-method status="PASS" signature="EyesIsMore()[pri:0, instance:testcase.detail.PersonTest@77f85f8c]" name="EyesIsMore" duration-ms="0" started-at="2017-06-20T16:49:21Z" finished-at="2017-06-20T16:49:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EyesIsMore -->
+        <test-method status="PASS" signature="EyeIsOne()[pri:0, instance:testcase.detail.PersonTest@77f85f8c]" name="EyeIsOne" duration-ms="0" started-at="2017-06-20T16:49:21Z" finished-at="2017-06-20T16:49:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EyeIsOne -->
+        <test-method status="PASS" signature="EyesIsTwo()[pri:0, instance:testcase.detail.PersonTest@77f85f8c]" name="EyesIsTwo" duration-ms="0" started-at="2017-06-20T16:49:21Z" finished-at="2017-06-20T16:49:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EyesIsTwo -->
+      </class> <!-- testcase.detail.PersonTest -->
+    </test> <!-- personTest -->
+  </suite> <!-- suit -->
+</testng-results>

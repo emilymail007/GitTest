@@ -1,0 +1,59 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.touyun.api</groupId>
+  <artifactId>test01</artifactId>
+  <packaging>war</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>test01 Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+   <!-- 在<project>中添加<properties>标签-->
+    <properties>
+        <project.build.sourceEncoding>
+            UTF-8
+        </project.build.sourceEncoding>
+    </properties>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+      <!--testng依赖 -->
+      <dependency>
+              <groupId>org.testng</groupId>
+              <artifactId>testng</artifactId>
+              <version>6.8</version>
+      </dependency>
+      <!--log4j依赖 -->
+      <!--
+      maven使用surefire这个插件进行测试，可以执行testng或者Junit脚本;设置log4j依赖，build下添加pugins
+-->
+      <dependency>
+          <groupId>org.apache.logging.log4j</groupId>
+          <artifactId>log4j-api</artifactId>
+          <version>2.8</version>
+      </dependency>
+
+  </dependencies>
+  <build>
+      <plugins>
+          <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-surefire-plugin</artifactId>
+              <version>2.19</version>
+              <configuration>
+                  <suiteXmlFiles>
+                      <suiteXmlFile>res/testng.xml</suiteXmlFile>
+                      <!--该文件位于工程根目录时，直接填写名字，其它位置要加上路径。-->
+                  </suiteXmlFiles>
+              </configuration>
+          </plugin>
+      </plugins>
+
+
+
+    <finalName>test01</finalName>
+  </build>
+</project>
