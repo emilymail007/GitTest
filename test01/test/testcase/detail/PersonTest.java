@@ -26,6 +26,8 @@ public class PersonTest {
     @Test(testName = "返回3")
     public void EyesIsMore(){
         Assert.assertEquals(3,new Person().hasEyes(9));
-        System.out.println("没有2只以上的眼睛");
+        System.out.println("没有2只以上的眼睛！！！");
+
     }
+
 }
